@@ -1,23 +1,34 @@
-import { list } from 'postcss';
-import React from 'react';
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import React, { useState } from "react";
+import Link from "../Link/Link";
 
 const Navbar = () => {
-    const routes = [
-        { id: 1, name: 'Home', path: '/' },
-        { id: 2, name: 'About', path: '/about' },
-        { id: 3, name: 'Contact', path: '/contact' },
-        { id: 4, name: 'Blog', path: '/blog' },
-        { id: 5, name: 'Services', path: '/services' }
-      ];
-    return (
-        <nav>
-            <ul>
-                {
-                    routes.map(route => <li>{route.name}</li>)
-                }
-            </ul>  
-        </nav>
-    );
+  const [open, setOpen] = useState(false);
+  const routes = [
+    { id: 1, name: "Home", path: "/" },
+    { id: 2, name: "About", path: "/about" },
+    { id: 3, name: "Contact", path: "/contact" },
+    { id: 4, name: "Blog", path: "/blog" },
+    { id: 5, name: "Services", path: "/services" },
+  ];
+  return (
+    <nav className="  ">
+      <div onClick={() => setOpen(!open)} className="md:hidden ">
+        <span>
+          {open === true ? (
+            <XMarkIcon className="h-6 w-6  text-blue-500" />
+          ) : (
+            <Bars3Icon className="h-6 w-6  text-blue-500" />
+          )}
+        </span>
+      </div>
+      <ul className={`md:flex duration-500 absolute bg-purple-400 rounded-sm px-4 py-4 text-center md:static  ${open ? 'top-10': '-top-40'}`}>
+        {routes.map((route) => (
+          <Link key={route.id} route={route}></Link>
+        ))}
+      </ul>
+    </nav>
+  );
 };
 
 export default Navbar;

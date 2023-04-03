@@ -7,7 +7,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className=" text-4xl bg-purple-600">Responsive-nav-with-react-and-tailwind</h1>
       <Navbar></Navbar>
     </div>
   );
