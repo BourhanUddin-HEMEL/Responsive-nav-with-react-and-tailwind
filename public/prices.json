@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone",
+    "price": 599.99,
+    "features": ["Android", "Triple rear camera", "6.5 inch AMOLED screen"],
+    "image": "https://example.com/smartphone.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "price": 1299.99,
+    "features": ["Intel Core i7", "16GB RAM", "1TB SSD"],
+    "image": "https://example.com/laptop.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Wireless Headphones",
+    "price": 199.99,
+    "features": [
+      "Active noise-cancellation",
+      "Up to 30 hours battery life",
+      "Bluetooth 5.0"
+    ],
+    "image": "https://example.com/headphones.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Smart Watch",
+    "price": 299.99,
+    "features": [
+      "Heart rate, steps, calories burned tracking",
+      "1.4 inch AMOLED screen",
+      "Up to 5 days battery life"
+    ],
+    "image": "https://example.com/smartwatch.jpg"
+  }
+]
+
+
+

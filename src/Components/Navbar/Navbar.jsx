@@ -12,7 +12,7 @@ const Navbar = () => {
     { id: 5, name: "Services", path: "/services" },
   ];
   return (
-    <nav className="  ">
+    <nav className="bg-purple-400 ">
       <div onClick={() => setOpen(!open)} className="md:hidden ">
         <span>
           {open === true ? (
@@ -22,7 +22,7 @@ const Navbar = () => {
           )}
         </span>
       </div>
-      <ul className={`md:flex duration-500 absolute bg-purple-400 rounded-sm px-4 py-4 text-center md:static  ${open ? 'top-10': '-top-40'}`}>
+      <ul className={`md:flex duration-500 absolute rounded-sm px-4 py-4 text-center md:static  ${open ? 'top-10': '-top-40'}`}>
         {routes.map((route) => (
           <Link key={route.id} route={route}></Link>
         ))}
