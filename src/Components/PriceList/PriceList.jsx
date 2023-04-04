@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import PriceCard from "../PriceCard/PriceCard";
 
 const PriceList = () => {
   const [prices, setPrices] = useState([]);
@@ -16,9 +17,14 @@ const PriceList = () => {
         <h3 className="text-center text-4xl font-medium pt-5">
             Affortable price
         </h3>
+       <div className="grid grid-cols-3 gap-3 mx-2">
        {
-        prices.map(price =>console.log(price.name))
+        prices.map(price => <PriceCard 
+            key = {price.id}
+            price = {price}
+        ></PriceCard>)
        }
+       </div>
     </div>
   );
 };

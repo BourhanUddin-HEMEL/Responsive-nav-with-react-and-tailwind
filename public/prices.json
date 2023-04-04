@@ -4,14 +4,14 @@
     "name": "Smartphone",
     "price": 599.99,
     "features": ["Android", "Triple rear camera", "6.5 inch AMOLED screen"],
-    "image": "https://example.com/smartphone.jpg"
+    "image": "https://images.unsplash.com/photo-1607270788732-55d2cdb8f52a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
   },
   {
     "id": 2,
     "name": "Laptop",
     "price": 1299.99,
     "features": ["Intel Core i7", "16GB RAM", "1TB SSD"],
-    "image": "https://example.com/laptop.jpg"
+    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
   },
   {
     "id": 3,
@@ -22,7 +22,7 @@
       "Up to 30 hours battery life",
       "Bluetooth 5.0"
     ],
-    "image": "https://example.com/headphones.jpg"
+    "image": "https://images.unsplash.com/photo-1606221793073-1e3b79689777?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHdpcmVsZXNzJTIwaGVhZHBob25lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
     "id": 4,
@@ -33,9 +33,6 @@
       "1.4 inch AMOLED screen",
       "Up to 5 days battery life"
     ],
-    "image": "https://example.com/smartwatch.jpg"
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
   }
 ]
-
-
-
